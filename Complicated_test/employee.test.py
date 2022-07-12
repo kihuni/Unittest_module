@@ -2,6 +2,14 @@ import unittest
 from employee import Employee
 
 class TestEmployee(unittest.TestCase):
+
+    @classmethod
+    def setUpClass(cls):
+        pass
+
+    @classmethod
+    def tearDownClass(cls):
+        pass
     
      #setUp run before the test run
 
